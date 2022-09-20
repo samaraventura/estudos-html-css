@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+       
+          body  {
+            
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw, vw, %
+            16px geralmente é igual a 1em
+
+            é recomendado sempre usar px ou em 1em é igual a 16px
+            */
+           
+            font-size: 1em ;
+            
+            /* lighter normal bold bolder */
+
+        }
+
+        h1 {
+            /* shorthand font
+            -font-style -> font-size -> font-family
+
+            font-family: 'work sans' , sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans' , sans-serif;
+            
+           }
+          
+           
+           h2 {
+            font: bold 2em 'work sans';
+           }
+         
+         
+        
+           
+           
+        
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur similique fugit quibusdam, nulla dolorum eos, totam sapiente obcaecati maiores quisquam dolores placeat repellendus iste quos numquam error, doloribus voluptatem possimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, cum excepturi. Quia nisi sequi, necessitatibus, dignissimos ipsum sunt, perspiciatis obcaecati laboriosam unde eius est quas consequuntur iusto repellendus facilis atque?</p>
+    
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis excepturi nobis sequi et modi atque autem amet repellendus reprehenderit quia quo porro nihil, laudantium consectetur ullam debitis expedita. Aperiam, sint?</p>
+
+    
+</body>
+</html>
